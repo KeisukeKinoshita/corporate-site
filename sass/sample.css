@@ -133,14 +133,11 @@ header {
 
 #news_area {
   background-color: #eaf2f4; }
-  @media (min-width: 551px) {
-    #news_area .container {
-      padding: 0 10% 0 10% 50px; } }
   #news_area .container .news_title {
     text-align: center;
     font-size: 26px;
     font-size: 2.6rem;
-    color: #339fd1;
+    color: #42b9d0;
     font-weight: bold;
     padding: 15px 0 10px 0;
     letter-spacing: 0.2rem; }
@@ -155,17 +152,20 @@ header {
         font-weight: bold;
         margin-bottom: 3px; }
   @media (min-width: 551px) {
-    #news_area .container .news_title {
-      font-size: 22px;
-      font-size: 2.2rem;
-      padding: 50px 0 41px 0; }
-    #news_area .container .news_lists li {
-      font-size: 14px;
-      font-size: 1.4rem;
-      margin-bottom: 20px; }
-      #news_area .container .news_lists li span {
-        display: inline;
-        margin-bottom: 0px; } }
+    #news_area .container {
+      padding: 0 10% 50px 10%; }
+      #news_area .container .news_title {
+        font-size: 22px;
+        font-size: 2.2rem;
+        padding: 50px 0 41px 0; }
+      #news_area .container .news_lists li {
+        text-align: center;
+        font-size: 14px;
+        font-size: 1.4rem;
+        margin-bottom: 20px; }
+        #news_area .container .news_lists li span {
+          display: inline;
+          margin-bottom: 0px; } }
 
 footer {
   background-color: #42b9d0;
